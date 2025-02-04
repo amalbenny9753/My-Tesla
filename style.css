@@ -1,0 +1,302 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    color: #fff;
+    
+}
+body a, button{
+    cursor: pointer;
+}
+.inventory{
+    width: 100%;
+    height: 46px;
+    background: radial-gradient(circle, #e7d7b4, #f6d795);
+    display: flex;
+    font-size: 13px;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    
+}
+.inventory p,a{
+    padding-right: 15px;
+}
+.inventory p{
+    color: black;
+}
+.inventory button{
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+}
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 15px 10px 10px 45px;
+    position: absolute;
+    top: 46px;
+    width: 100%;
+    height: 23px;
+    color: #fff;
+}
+.nav-icon{
+    height: 25px;
+}
+.qm3{
+    margin-right: -15px;
+}
+.right{
+    display: flex;
+}
+.right a{
+    margin-left: -20px;
+
+}
+a.logo{
+height: 100px;
+width: 120px;
+color: inherit;
+}
+header a{
+    color: inherit;
+}
+header nav.center{
+    text-align: center;
+    font-size: 12px;
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px 15px;
+}
+section{
+    height: 100vh;
+    background-size: cover;
+    background-position: center  center;
+}
+.video-section {
+    position: relative;
+    z-index: -1;
+    margin-bottom: 50px;
+}
+.video-section video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.video-section .content5{
+    position: absolute;
+    top: 58%;
+    left: 46px;
+    transform: translate(-50%, -50);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+section .content1{
+    width: 100%;
+    height: 100vh;
+    padding-top: 17vh;
+    padding-bottom: 17vh;
+    text-align: center;
+    display: grid;
+    gap: 13px;
+    grid-template-rows: min-content min-content min-content max-content;
+}
+section .content2{
+    width: 100%;
+    height: calc(100vh - 92px);
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 13px;
+    grid-template-rows: min-content auto min-content;
+}
+section .content3{
+    width: 100%;
+    height: calc(100vh - 92px);
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 13px;
+    grid-template-rows: min-content max-content auto min-content;
+}
+section .content4{
+    width: 100%;
+    height: calc(100vh - 92px);
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 13px;
+    grid-template-rows:  auto min-content;
+}
+section .content3 h1{
+    margin-top: 100px;
+    font-weight: 550;
+    font-size: 60px;
+}
+section .content3 a{
+    margin-bottom: -65px;
+    margin-top: 65px;
+}
+section .content4 a{
+    margin-bottom: -65px;
+    margin-top: 65px;
+}
+section .content4 h1{
+    margin-top: 80px;
+}
+section .content2 h1{
+    margin-top: 100px;
+    font-weight: 550;
+    font-size: 60px;
+}
+section .content2 .btn1{
+    margin-top: 52vh;
+}
+section .content2 img{
+    margin-left: 50px;
+    margin-bottom: -80px;
+}
+section h1{
+    font-size: 4.2rem;
+    margin-bottom: -10PX;
+    letter-spacing: 1px;
+}
+section h2{
+    letter-spacing: 1px;
+}
+section h3{
+    font-size: 2.2rem;
+    margin-bottom: -5px;
+    letter-spacing: 1px;
+}
+section p{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+section a{
+    text-decoration: none;
+    color: inherit;
+}
+.border{
+    display: inline-block;
+    border-bottom: 1px solid; 
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.content5 h2{
+    font-size: 40px;
+}
+.content5 .btn1 a{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.content5 .btn1{
+    margin-left: -80px;
+}
+section .btn1 .white-button{
+    background-color: #fff;
+    padding: 13px 70px;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+}
+section .btn1 .blue-button{
+    background-color: #3e6ae1;
+    color: #fff;
+    font-size: 14px;
+    padding: 13px 70px;
+    border-radius: 5px;
+}
+.black-button{
+    background-color: #111111;
+    color: #8e8e8e;
+    height: 45px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 13px 70px;
+    border-radius: 5px;
+}
+.bb1{
+    border-top: 3px solid ;
+}
+.bottom-flg{
+    display: flex;
+    width: 100%;
+    height: 46px;
+    position: fixed;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+    /*background-color: #f9f9f9;*/
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    font-weight: 555;
+    box-shadow: 0px -1px 13px rgba(0, 0, 0, 0.3);
+}
+sup{
+    font-size: 8px;
+    position: absolute;
+}
+footer{
+    display: grid;
+    position: relative;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content;
+}
+footer pre{
+    z-index: -2;
+    color: #5c5e62;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+footer .copyright a{
+    text-decoration: none;
+    color: #5c5e62;
+    font-size: 11px;
+    font-weight: 600;
+}
+.row{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr); 
+    height: calc(100vh - 92px);
+    margin-bottom: 20px;
+    place-self: center;
+    margin-left: -77px;
+}
+.row a{
+    color: #5c5e62;
+    font-weight: 600;
+    margin: 0; /* this is used to avoid extra spacing in <pre> tag*/
+    padding: 0; /* this is used to avoid extra spacing in <pre> tag*/
+    cursor: pointer;
+}
+
